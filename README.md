@@ -1,6 +1,6 @@
 # 2020732014 조현준 과제1  
 ___
-P2.7  
+# P2.7  
 ![image](https://github.com/user-attachments/assets/8ecb90e3-4953-4a46-a43e-649bc90b358f)  
 ${i_1}(t) = \frac{V_1(s)}{R}$  
 ${i_2}(t) = -C \frac{dV_2(s)}{dt} \quad \Rightarrow \quad I(s) = -C \cdot s \cdot V_2(s)$  
@@ -8,7 +8,7 @@ $\frac{V_1(s)}{R} = -C \cdot s \cdot V_2(s)$
 $V_2(s) = \frac{-V_1(s)}{R C s}$  
 $\text{전달함수} \quad H(s) = \frac{-V_2(s)}{V_1(s)} = \frac{-1}{R C s}$  
 ___
-P2.12  
+# P2.12  
 ![image](https://github.com/user-attachments/assets/753dad12-13a7-4270-87e4-e0b3106e7b83)  
 $R(s) \cdot \frac{K}{s + 50} = Y(s)$  
 단위계단 입력이므로 $r(t)$의 라플라스 변환  
@@ -17,14 +17,14 @@ $\therefore Y(s) = \frac{K}{s(s + 50)}$
 $\lim_{t \to \infty} y(t) = \lim_{s \to 0} s \cdot Y(s) = \lim_{s \to 0} \frac{sK}{s(s + 50)} = \frac{K}{50}$  
 $\therefore 1이 되려면 \quad K = 50$  
 ___
-P2.15  
+# P2.15  
 ![image](https://github.com/user-attachments/assets/9bb0ddac-04fa-4ec9-818c-da54a6e92634)  
 $m \frac{d^2 x(t)}{dt^2} + b \frac{dx(t)}{dt} + kx(t) = \delta(t)$  
 $s^2 X(s) + \frac{bs}{m} X(s) + \frac{k}{m} X(s) = \frac{1}{m}$  
 $X(s) = \frac{1}{ms^2 + bs + k}$  
 $x(t) = \mathcal{L}^{-1} \left( \frac{1}{ms^2 + bs + k} \right)$  
 ___
-P2.26  
+# P2.26  
 ![image](https://github.com/user-attachments/assets/f92ec1ba-4c37-4c10-ac29-ca68a1594fe5)  
 $M \frac{d^2 x(t)}{dt^2} = F(t) - b ( \frac{dx(t)}{dt} - \frac{dy(t)}{dt} ) - k ( x(t) - y(t) ) \quad \cdots (1)$  
 $m \frac{d^2 y(t)}{dt^2} = b ( \frac{dx(t)}{dt} - \frac{dy(t)}{dt} ) + k ( x(t) - y(t) ) \quad \cdots (2)$  
@@ -45,7 +45,7 @@ $= Y(s)(\frac{(M s^2 + bs + k)(m s^2 + bs + k) - (bs + k)^2}{bs + k})$
 
 $\therefore \frac{Y(s)}{F(s)} = \frac{bs + k}{(M s^2 + bs + k)(m s^2 + bs + k) - (bs + k)^2}$  
 ___
-P2.37  
+# P2.37  
 ![image](https://github.com/user-attachments/assets/6c5dc6de-468b-4518-aa1d-a1e1dee070c0)  
 $m_1 \frac{d^2 x(t)}{dt^2} = -K_1 x(t) - K_2 (x(t) - y(t)) \quad \cdots (1) \therefore \frac{d^2 x}{dt^2} = -2x(t) + y(t)$  
 $m_2 \frac{d^2 y(t)}{dt^2} = -K_2 (y(t) - x(t)) - u(t) \quad \cdots (2) \therefore \frac{d^2 y}{dt^2} = x(t) - y(t) - u(t)$  
