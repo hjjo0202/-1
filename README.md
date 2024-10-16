@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a8efbf17-f160-4bff-a079-6de60b8580bc)# 2020732014 조현준 과제1
+# 2020732014 조현준 과제1  
 
 ![image](https://github.com/user-attachments/assets/8ecb90e3-4953-4a46-a43e-649bc90b358f)  
 ${i_1}(t) = \frac{V_1(s)}{R}$  
@@ -51,7 +51,7 @@ $\Rightarrow X(s) (s^2 + 2) = Y(s) \quad X(s) = \frac{Y(s)}{s^2 + 2} \quad \cdot
 (2)번 식을 라플라스 변환  
 $m_2 s^2 Y(s) = -K_2 (Y(s) - X(s)) - U(s)$  
 $\Rightarrow s^2 Y(s) = X(s) - Y(s) - U(s) \quad \cdots (4)$  
-③을 ④에 대입  
+(3)번 식을 (4)에 대입
 $s^2 Y(s) - \frac{Y(s)}{s^2 + 2} + Y(s) = - U(s)$  
 $Y(s) \left( s^2 - \frac{1}{s^2 + 2} + 1 \right) = -U(s) \quad \Rightarrow Y(s) \left( \frac{s^4 + 2s^2}{s^2 + 2}-\frac{1}{s^2+2}+\frac{s^2+2}{s^2+2} \right) = -U(s)$  
 $Y(s) \left( \frac{s^4 + 3s^2 + 1}{s^2 + 2} \right) = -U(s) \quad \therefore \frac{Y(s)}{U(s)} = - \left( \frac{s^2 + 2}{s^4 + 3s^2 + 1} \right)$  
